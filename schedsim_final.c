@@ -104,7 +104,7 @@ void SJF()
 
 	arriveTime=0; //initialize arrive time
 	finTime=0;    //initialize finish time
-	m=0;
+	//m=0;
 	//sort input processes from shortest burst time to longest (ascending order)
 	for (i=0; i<numProcesses; i++)
 	{
@@ -423,7 +423,7 @@ void Priority()
 	//Use that array to build the Gantt chart.
 	arriveTime=0;
 	finTime=0;
-	m=0;
+	//m=0;
 	//sort highest priority
 	for (i=0; i<numProcesses; i++)
 	{
